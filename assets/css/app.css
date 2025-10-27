@@ -9,7 +9,7 @@ body {
 }
 
 .hero {
-    min-height: 70vh;
+    min-height: clamp(12rem, 56.25vw, 70vh);
     overflow: hidden;
     background: url('../img/hero.jpg') center/cover no-repeat;
 }
